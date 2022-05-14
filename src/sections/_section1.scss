@@ -1,5 +1,44 @@
+.section-title {
+  font-family: 'Inter', sans-serif;
+  font-size: 60px;
+  font-weight: bold;
+  color: #212121;
+}
+
 .step {
-  h2 {
-    color: #7d2a8a;
-  }
+  border-left: 6px dashed #7d2a8a;
+  padding-left: 32.5px;
+}
+
+.stepnum {
+  font-family: 'Inter', sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  color: #7d2a8a;
+}
+
+.step h2 {
+  font-family: 'Inter', sans-serif;
+  font-size: 48px;
+  font-weight: bold;
+  color: #7d2a8a;
+}
+
+p {
+  font-family: 'Inter', sans-serif;
+  font-size: 24px;
+  color: #212121;
+  margin: 0;
+}
+
+.coming-soon {
+  background-color: #f0f7ff;
+  padding: 27px 32px 15px 31px;
+}
+
+.arrival-date {
+  font-family: 'Inter', sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  color: #212121;
 }

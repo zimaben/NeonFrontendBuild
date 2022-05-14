@@ -1,11 +1,25 @@
 /*!*********************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss ***!
   \*********************************************************************************************************/
+.section-middle {
+  padding: 80px;
+}
+
+.container-fluid {
+  margin-bottom: 100px;
+}
+
+.section-image {
+  text-align: center;
+}
+
 .section-title {
   font-family: "Inter", sans-serif;
   font-size: 60px;
   font-weight: bold;
   color: #212121;
+  text-align: center;
+  margin-bottom: 50px;
 }
 
 .step {

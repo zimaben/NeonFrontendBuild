@@ -1,19 +1,103 @@
+a.title {
+  border: 1px solid black;
+  padding: 10px 30px;
+  font-size: 30px;
+  font-weight: 100;
+  letter-spacing: 15px;
+}
+
+span.navbar-text {
+  font: 18px/24px Inter, 'PT Sans', sans-serif;
+  color: black;
+}
+
+a.nav-link {
+  font: 18px/24px Inter, 'PT Sans', sans-serif;
+  color: black;
+}
+
+.nav-link.on {
+  color: black;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: grey !important;
+}
+
+button.sign-in {
+  font: 18px/24px Inter, 'PT Sans', sans-serif;
+  height: 56px;
+  width: 123px;
+  border: 1px solid black;
+  color: black;
+}
+
+.main {
+  padding: 3% 5%;
+}
+
+section.main {
+  background: linear-gradient(#7d2a8a, #ef4b89, #ffd600);
+}
+
+.main-text h1 {
+  font: bold 72px/104px Inter, 'PT Sans', sans-serif;
+  color: #ffffff;
+  margin-bottom: 14px;
+}
+
+.main-text p {
+  font: bold 24px/36px Inter, 'PT Sans', sans-serif;
+  color: #ffffff;
+  margin-bottom: 14px;
+}
+
+.main-text span {
+  font: 18px/24px Inter, 'PT Sans', sans-serif;
+  color: #ffffff;
+  margin-bottom: 200px;
+}
+
+form button.quiz {
+  margin-top: 20px;
+}
+
+button.quiz {
+  background-color: #7d2a8a;
+  border: none;
+  font-family: 'Inter', sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  color: #ffffff;
+  padding: 21px 26px;
+}
+
+form.quiz-button {
+  padding-top: 14px;
+}
+
+//middle section
+
 .section-middle {
-  padding: 80px;
+  padding: 3% 5%;
 }
 
 .container-fluid {
-  margin-bottom: 100px;
+  margin-bottom: 5%;
 }
 
-.section-image {
+.sectionimg {
   text-align: center;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 .section-title {
-  font-family: 'Inter', sans-serif;
-  font-size: 60px;
-  font-weight: bold;
+  font: bold 60px/72px Inter, 'PT Sans', sans-serif;
   color: #212121;
   text-align: center;
   margin-bottom: 50px;
@@ -25,22 +109,18 @@
 }
 
 .stepnum {
-  font-family: 'Inter', sans-serif;
-  font-size: 24px;
-  font-weight: bold;
+  font: bold 24px/36px Inter, 'PT Sans', sans-serif;
   color: #7d2a8a;
 }
 
 .step h2 {
-  font-family: 'Inter', sans-serif;
-  font-size: 48px;
-  font-weight: bold;
+  font: bold 48px/52px Inter, 'PT Sans', sans-serif;
   color: #7d2a8a;
 }
 
-p {
-  font-family: 'Inter', sans-serif;
-  font-size: 24px;
+p,
+.arrival-date {
+  font: 24px/36px Inter, 'PT Sans', sans-serif;
   color: #212121;
   margin: 0;
 }
@@ -51,8 +131,240 @@ p {
 }
 
 .arrival-date {
-  font-family: 'Inter', sans-serif;
-  font-size: 24px;
   font-weight: bold;
-  color: #212121;
+}
+
+// video section
+
+section.introduction-video {
+  background: #f0f7ff;
+  display: block;
+  text-align: center;
+  padding: 6% 20%;
+}
+
+.introduction-video h3 {
+  font: bold 36px/48px Inter, 'PT Sans', sans-serif;
+  color: #7d2a8a;
+}
+
+.introduction-video p {
+  margin-bottom: 5%;
+}
+
+video {
+  max-width: 100%;
+}
+
+//quiz section
+section.join-quiz {
+  background: linear-gradient(#1668a5, #7d2a8a, #f881ae);
+  display: block;
+  text-align: center;
+  padding: 6% 20%;
+}
+
+.join-quiz h3 {
+  font: bold 36px/46px Inter, 'PT Sans', sans-serif;
+  color: #ffffff;
+}
+
+.join-quiz p {
+  font: 24px/48px Inter, 'PT Sans', sans-serif;
+  color: #ffffff;
+}
+
+button.join-quiz {
+  font: bold 24px/24px Inter, 'PT Sans', sans-serif;
+  background-color: #ffffff;
+  border: none;
+  height: 73px;
+  width: 461px;
+  color: #7d2a8a;
+  padding: 21px 26px;
+}
+
+//what colors are your avatar?
+
+section#what-do-colors-mean {
+  padding: 6% 0;
+}
+
+#meet-your-colors {
+  font: bold 36px/48px Inter, 'PT Sans', sans-serif;
+  color: #7d2a8a;
+  text-align: center;
+  margin-bottom: 4%;
+}
+
+#what-do-colors-mean ul.whatcolors li.whatcolor .top {
+  display: block;
+  width: 6.74vw;
+  height: 6.74vw;
+  border-radius: 50%;
+  min-width: 97px;
+  min-height: 97px;
+}
+
+#what-do-colors-mean ul.whatcolors {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+#what-do-colors-mean ul.whatcolors li.whatcolor {
+  flex: 0 0 16.6667%;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  min-width: 140px;
+  align-items: center;
+}
+
+#what-do-colors-mean ul.whatcolors li.whatcolor ul.figure-dot-large li {
+  text-align: center;
+  letter-spacing: 0;
+  font-size: 14px;
+  font-weight: 400;
+  color: #6e6f70;
+  padding: 0;
+  margin: 0;
+}
+
+#what-do-colors-mean ul.whatcolors li.whatcolor ul.figure-dot-large {
+  margin: 0 0 40px;
+  padding: 0;
+  opacity: 0.6;
+  list-style: none;
+}
+
+.background-blue {
+  background: #99e4f9;
+}
+
+.background-lime {
+  background: #bbe549;
+}
+
+.background-lavender {
+  background: #c08ccf;
+}
+
+.background-rose {
+  background: #dd5988;
+}
+
+.background-tangerine {
+  background: #ffa540;
+}
+
+.background-yellow {
+  background: #fffd54;
+}
+
+.background-emerald {
+  background: #29972e;
+}
+
+.background-sapphire {
+  background: #1668a5;
+}
+
+.background-violet {
+  background: #7d2a8a;
+}
+
+.background-ruby {
+  background: #9d2138;
+}
+
+.background-copper {
+  background: #f7642b;
+}
+
+.background-gold {
+  background: #ffd52c;
+}
+
+//email update
+section.email-update {
+  background: linear-gradient(#1668a5, #29972e, #ffff00);
+  display: block;
+  text-align: center;
+  padding: 6% 20%;
+}
+
+.email-update h3 {
+  font: bold 36px/46px Inter, 'PT Sans', sans-serif;
+  color: #ffffff;
+}
+
+.email-update label {
+  font: 24px/36px Inter, 'PT Sans', sans-serif;
+  color: #ffffff;
+}
+
+.email-update input {
+  font: 18px/24px Inter, 'PT Sans', sans-serif;
+  width: 286px;
+  height: 56px;
+  margin: 0 2%;
+}
+
+button.email-update {
+  font: bold 24px/24px Inter, 'PT Sans', sans-serif;
+  background-color: #1668a5;
+  width: 167px;
+  height: 73px;
+  border: none;
+  color: #ffffff;
+  padding: 21px 26px;
+}
+
+//nav-bottom
+nav.nav-bottom {
+  background: #212121;
+}
+
+a.nav-bottom {
+  border: 1px solid #ffffff;
+  padding: 10px 30px;
+  font-size: 30px;
+  font-weight: 100;
+  letter-spacing: 15px;
+}
+
+.nav-bottom .nav-link,
+.nav-bottom .navbar-brand,
+.nav-bottom .navbar-text {
+  color: #ffffff;
+}
+
+// rights privacy terms
+ul.legal-items {
+  color: #b8b8b8;
+  list-style: none;
+  padding: 0;
+  margin: 15px auto 40px;
+}
+
+li.legal-item {
+  display: inline;
+}
+
+li.legal-item:after {
+  content: ' \2022';
+}
+
+li.legal-item:last-child:after {
+  content: none;
+}
+
+a.legal-link {
+  color: #b8b8b8;
+  text-decoration: none;
 }

@@ -6,10 +6,18 @@ section.main {
   background: linear-gradient(#7d2a8a, #ef4b89, #ffd600);
 }
 
+.main .sectionimg {
+  text-align: center;
+  position: relative;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
 div.main-text {
   text-align: left;
 
-  @media (max-width: 991px) {
+  @media (max-width: 1200px) {
     text-align: center;
   }
 }

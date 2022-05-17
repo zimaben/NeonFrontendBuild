@@ -9,23 +9,40 @@ section.email-update {
   display: block;
   text-align: center;
   padding: 6% 20%;
+
+  @media (max-width: 768px) {
+    padding: 6% 10%;
+  }
 }
 
 .email-update h3 {
-  font: bold 36px/46px Inter, 'PT Sans', sans-serif;
+  font: bold 36px/48px Inter, 'PT Sans', sans-serif;
   color: #ffffff;
+
+  @media (max-width: 768px) {
+    font: bold 24px/36px Inter, 'PT Sans', sans-serif;
+  }
 }
 
 .email-update label {
   font: 24px/36px Inter, 'PT Sans', sans-serif;
   color: #ffffff;
+  margin: 0;
+
+  @media (max-width: 768px) {
+    font: 18px/24px Inter, 'PT Sans', sans-serif;
+  }
 }
 
 .email-update input {
   font: 18px/24px Inter, 'PT Sans', sans-serif;
   width: 286px;
   height: 56px;
-  margin: 0% 2%;
+  margin: 2% 2%;
+
+  @media (max-width: 768px) {
+    font: 16px/18px Inter, 'PT Sans', sans-serif;
+  }
 }
 
 form.email-update {
@@ -40,6 +57,10 @@ button.email-update {
   border: none;
   color: #ffffff;
   padding: 21px 26px;
+
+  @media (max-width: 768px) {
+    font: bold 18px/18px Inter, 'PT Sans', sans-serif;
+  }
 }
 
 //nav-bottom
@@ -67,6 +88,7 @@ ul.legal-items {
   list-style: none;
   padding: 0;
   margin: 15px auto 40px;
+  text-align: center;
 }
 
 li.legal-item {

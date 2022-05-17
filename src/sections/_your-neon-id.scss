@@ -1,14 +1,22 @@
-.section-middle {
+.your-neon-id {
   padding: 3% 5%;
-}
-
-.sectionimg {
-  text-align: center;
 }
 
 img {
   max-width: 100%;
   height: auto;
+
+  @media (max-width: 991px) {
+    margin-top: 5%;
+  }
+}
+
+.your-neon-id section {
+  margin-bottom: 5%;
+
+  @media (max-width: 991px) {
+    margin: 0;
+  }
 }
 
 .section-title {
@@ -17,7 +25,7 @@ img {
   text-align: center;
   margin-bottom: 5%;
 
-  @media (max-width: 768px) {
+  @media (max-width: 991px) {
     font: bold 36px/46px Inter, 'PT Sans', sans-serif;
   }
 }
@@ -26,7 +34,7 @@ img {
   border-left: 6px dashed #7d2a8a;
   padding-left: 32.5px;
 
-  @media (max-width: 768px) {
+  @media (max-width: 991px) {
     border: none;
     padding: 0;
   }
@@ -36,7 +44,7 @@ img {
   font: bold 24px/36px Inter, 'PT Sans', sans-serif;
   color: #7d2a8a;
 
-  @media (max-width: 768px) {
+  @media (max-width: 991px) {
     font: bold 18px/24px Inter, 'PT Sans', sans-serif;
   }
 }
@@ -45,7 +53,7 @@ img {
   font: bold 48px/52px Inter, 'PT Sans', sans-serif;
   color: #7d2a8a;
 
-  @media (max-width: 768px) {
+  @media (max-width: 991px) {
     font: bold 36px/46px Inter, 'PT Sans', sans-serif;
   }
 }
@@ -56,7 +64,7 @@ p,
   color: #212121;
   margin: 0;
 
-  @media (max-width: 768px) {
+  @media (max-width: 991px) {
     font: 18px/24px Inter, 'PT Sans', sans-serif;
   }
 }

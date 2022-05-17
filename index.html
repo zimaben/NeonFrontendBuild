@@ -9,6 +9,7 @@
       name="description"
       content="A simple HTML5 Template for new projects."
     />
+    <script src="//code.jquery.com/jquery.min.js"></script>
     <link rel="stylesheet" href="/dist/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -17,8 +18,10 @@
       rel="stylesheet"
     />
     <link
-      rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
     />
   </head>
   <body>
@@ -48,7 +51,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                  <a class="nav-link" href="#">For people</a>
+                  <a class="nav-link on" href="#">For people</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#">For brands</a>
@@ -57,16 +60,15 @@
                   <a class="nav-link" href="#">Contact</a>
                 </li>
               </ul>
+              <form class="form-inline my-2 my-md-0">
+                <button
+                  class="btn btn-outline-success my-2 my-sm-0 rounded-pill sign-in"
+                  type="submit"
+                >
+                  Sign In
+                </button>
+              </form>
             </div>
-
-            <form class="form-inline my-2 my-md-0">
-              <button
-                class="btn btn-outline-success my-2 my-sm-0 rounded-pill sign-in"
-                type="submit"
-              >
-                Sign In
-              </button>
-            </form>
           </div>
         </div>
       </nav>
@@ -75,12 +77,12 @@
     <section class="main">
       <section class="container-fluid main-container">
         <div class="row">
-          <div class="col-sm-12 col-lg-5 section-image">
+          <div class="col-sm-12 col-xl-5 section-image">
             <figure class="sectionimg">
               <img src="/assets/Group 1221.png" />
             </figure>
           </div>
-          <div class="main-text col-sm-12 col-lg-6">
+          <div class="main-text col-sm-12 col-xl-6">
             <h1>The digital ID that pays you to be you</h1>
             <p>
               Your data is yours. Unlock online personalization, privacy and
@@ -107,11 +109,11 @@
 
     <!-- Your NEON ID is yours to own -->
     <!-- It's personalized -->
-    <section class="section-middle">
+    <section class="your-neon-id">
       <h1 class="section-title">Your NEON ID is yours to own</h1>
       <section class="container-fluid">
         <div class="row">
-          <div class="col-sm-12 col-md-6">
+          <div class="col-sm-12 col-lg-6">
             <div class="step">
               <span class="stepnum" id="section1-step1">01</span>
               <h2>It's personalized</h2>
@@ -134,7 +136,7 @@
               </div>
             </div>
           </div>
-          <div class="col-sm-12 col-md-6 section-image">
+          <div class="col-sm-12 col-lg-6 section-image">
             <figure class="sectionimg">
               <img src="/assets/Group 1245.svg" />
             </figure>
@@ -145,7 +147,7 @@
       <!-- It's private -->
       <section class="container-fluid">
         <div class="row">
-          <div class="col-sm-12 col-md-6 order-2">
+          <div class="col-sm-12 col-lg-6 order-lg-2">
             <div class="step">
               <span class="stepnum" id="section1-step1">02</span>
               <h2>It's private</h2>
@@ -166,7 +168,7 @@
               </div>
             </div>
           </div>
-          <div class="col-sm-12 col-md-6 order-1">
+          <div class="col-sm-12 col-lg-6">
             <figure class="sectionimg">
               <img src="/assets/Group 1222.png" />
             </figure>
@@ -177,9 +179,9 @@
       <!-- It's profitable -->
       <section class="container-fluid">
         <div class="row">
-          <div class="col-sm-12 col-md-6">
+          <div class="col-sm-12 col-lg-6">
             <div class="step">
-              <span class="stepnum" id="section1-step1">02</span>
+              <span class="stepnum" id="section1-step1">03</span>
               <h2>It's profitable</h2>
               <p>
                 Your avatar is also your money making chip. Your avatar is your
@@ -200,7 +202,7 @@
               </div>
             </div>
           </div>
-          <div class="col-sm-12 col-md-6">
+          <div class="col-sm-12 col-lg-6">
             <figure class="sectionimg">
               <img src="/assets/Group 1223.png" />
             </figure>
@@ -467,9 +469,16 @@
       </section>
     </footer>
 
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
-      integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
       crossorigin="anonymous"
     ></script>
   </body>

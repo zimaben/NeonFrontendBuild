@@ -1,0 +1,19 @@
+section.introduction-video {
+  background: #f0f7ff;
+  display: block;
+  text-align: center;
+  padding: 6% 20%;
+}
+
+.introduction-video h3 {
+  font: bold 36px/48px Inter, 'PT Sans', sans-serif;
+  color: #7d2a8a;
+}
+
+.introduction-video p {
+  margin-bottom: 5%;
+}
+
+video {
+  max-width: 100%;
+}

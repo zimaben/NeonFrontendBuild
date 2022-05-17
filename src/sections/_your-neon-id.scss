@@ -1,0 +1,71 @@
+.section-middle {
+  padding: 3% 5%;
+}
+
+.sectionimg {
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.section-title {
+  font: bold 60px/72px Inter, 'PT Sans', sans-serif;
+  color: #212121;
+  text-align: center;
+  margin-bottom: 5%;
+
+  @media (max-width: 768px) {
+    font: bold 36px/46px Inter, 'PT Sans', sans-serif;
+  }
+}
+
+.step {
+  border-left: 6px dashed #7d2a8a;
+  padding-left: 32.5px;
+
+  @media (max-width: 768px) {
+    border: none;
+    padding: 0;
+  }
+}
+
+.stepnum {
+  font: bold 24px/36px Inter, 'PT Sans', sans-serif;
+  color: #7d2a8a;
+
+  @media (max-width: 768px) {
+    font: bold 18px/24px Inter, 'PT Sans', sans-serif;
+  }
+}
+
+.step h2 {
+  font: bold 48px/52px Inter, 'PT Sans', sans-serif;
+  color: #7d2a8a;
+
+  @media (max-width: 768px) {
+    font: bold 36px/46px Inter, 'PT Sans', sans-serif;
+  }
+}
+
+p,
+.arrival-date {
+  font: 24px/36px Inter, 'PT Sans', sans-serif;
+  color: #212121;
+  margin: 0;
+
+  @media (max-width: 768px) {
+    font: 18px/24px Inter, 'PT Sans', sans-serif;
+  }
+}
+
+.coming-soon {
+  background-color: #f0f7ff;
+  padding: 27px 32px 15px 31px;
+}
+
+.arrival-date {
+  font-weight: bold;
+}

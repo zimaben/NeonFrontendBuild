@@ -1,0 +1,38 @@
+a.title {
+  border: 1px solid black;
+  padding: 10px 30px;
+  font-size: 30px;
+  font-weight: 100;
+  letter-spacing: 15px;
+}
+
+.navbar span {
+  font: 100px;
+}
+
+span.navbar-text {
+  font: 18px/24px Inter, 'PT Sans', sans-serif;
+  color: black;
+}
+
+a.nav-link {
+  font: 18px/24px Inter, 'PT Sans', sans-serif;
+  color: black;
+}
+
+.nav-link.on {
+  color: black;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: grey !important;
+}
+
+button.sign-in {
+  font: 18px/24px Inter, 'PT Sans', sans-serif;
+  height: 56px;
+  width: 123px;
+  border: 1px solid black;
+  color: black;
+}

@@ -20,10 +20,6 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
     />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
-    />
   </head>
   <body>
     <header>
@@ -63,7 +59,7 @@
               </ul>
             </div>
 
-            <form class="form-inline my-2 my-lg-0">
+            <form class="form-inline my-2 my-md-0">
               <button
                 class="btn btn-outline-success my-2 my-sm-0 rounded-pill sign-in"
                 type="submit"
@@ -115,7 +111,7 @@
       <h1 class="section-title">Your NEON ID is yours to own</h1>
       <section class="container-fluid">
         <div class="row">
-          <div class="col-sm-12 col-lg-6">
+          <div class="col-sm-12 col-md-6">
             <div class="step">
               <span class="stepnum" id="section1-step1">01</span>
               <h2>It's personalized</h2>
@@ -138,7 +134,7 @@
               </div>
             </div>
           </div>
-          <div class="col-sm-12 col-lg-6 section-image">
+          <div class="col-sm-12 col-md-6 section-image">
             <figure class="sectionimg">
               <img src="/assets/Group 1245.svg" />
             </figure>
@@ -149,7 +145,7 @@
       <!-- It's private -->
       <section class="container-fluid">
         <div class="row">
-          <div class="col-sm-12 col-lg-6 order-2">
+          <div class="col-sm-12 col-md-6 order-2">
             <div class="step">
               <span class="stepnum" id="section1-step1">02</span>
               <h2>It's private</h2>
@@ -170,7 +166,7 @@
               </div>
             </div>
           </div>
-          <div class="col-sm-12 col-lg-6 order-1">
+          <div class="col-sm-12 col-md-6 order-1">
             <figure class="sectionimg">
               <img src="/assets/Group 1222.png" />
             </figure>
@@ -181,7 +177,7 @@
       <!-- It's profitable -->
       <section class="container-fluid">
         <div class="row">
-          <div class="col-sm-12 col-lg-6">
+          <div class="col-sm-12 col-md-6">
             <div class="step">
               <span class="stepnum" id="section1-step1">02</span>
               <h2>It's profitable</h2>
@@ -204,7 +200,7 @@
               </div>
             </div>
           </div>
-          <div class="col-sm-12 col-lg-6">
+          <div class="col-sm-12 col-md-6">
             <figure class="sectionimg">
               <img src="/assets/Group 1223.png" />
             </figure>
@@ -228,29 +224,31 @@
       </div>
     </section>
 
-    <section class="join-quiz d-flex flex-column align-items-center">
-      <h3>Get the digital ID that pays you to be you</h3>
-      <p>Join the NEON movement today!</p>
-      <form class="my-2 my-lg-0 quiz-button">
-        <button
-          class="btn btn-outline-success my-2 my-sm-0 rounded-pill join-quiz"
-          type="submit"
-        >
-          Take our quiz to get your NEON ID
-        </button>
-      </form>
+    <section class="container-fluid join-quiz">
+      <div class="row">
+        <h3 class="col-12">Get the digital ID that pays you to be you</h3>
+        <p class="col-12">Join the NEON movement today!</p>
+        <form class="col-12 my-2 my-md-0 quiz-button">
+          <button
+            class="btn btn-outline-success my-2 my-sm-0 rounded-pill join-quiz"
+            type="submit"
+          >
+            Take our quiz to get your NEON ID
+          </button>
+        </form>
+      </div>
     </section>
 
-    <section id="what-do-colors-mean" class="container colorsbox">
-      <div class="row">
-        <h2 id="meet-your-colors" class="homesection">What colors are your avatar?</h2>
-        </div>
+    <section id="what-do-colors-mean" class="colorsbox">
+      <h2 id="meet-your-colors" class="homesection">
+        What colors are your avatar?
+      </h2>
 
-        <ul class="whatcolors">
-          <li class="whatcolor">
-            <div class="top background-lime"></div>
-            <h5 class="what-colortitle">Jade</h5>
-          <div class="meet-colorbullets">					
+      <ul class="whatcolors">
+        <li class="whatcolor">
+          <div class="top background-lime"></div>
+          <h5 class="what-colortitle">Jade</h5>
+          <div class="meet-colorbullets">
             <ul class="figure-dot-large">
               <li>Relaxed</li>
               <li>Spontaneous</li>
@@ -258,10 +256,10 @@
             </ul>
           </div>
         </li>
-          <li class="whatcolor">
-            <div class="top background-blue"></div>
-          <h5 class="what-colortitle">Sky</h2>
-          <div class="meet-colorbullets">						
+        <li class="whatcolor">
+          <div class="top background-blue"></div>
+          <h5 class="what-colortitle">Sky</h5>
+          <div class="meet-colorbullets">
             <ul class="figure-dot-large">
               <li>Daring</li>
               <li>Proud</li>
@@ -269,10 +267,10 @@
             </ul>
           </div>
         </li>
-          <li class="whatcolor">
-            <div class="top background-lavender"></div>
-          <h5 class="what-colortitle">Lavender</h2>
-          <div class="meet-colorbullets">	
+        <li class="whatcolor">
+          <div class="top background-lavender"></div>
+          <h5 class="what-colortitle">Lavender</h5>
+          <div class="meet-colorbullets">
             <ul class="figure-dot-large">
               <li>Independent</li>
               <li>Fearless</li>
@@ -280,10 +278,10 @@
             </ul>
           </div>
         </li>
-          <li class="whatcolor">
-            <div class="top background-rose"></div>
-          <h5 class="what-colortitle">Rose</h2>
-          <div class="meet-colorbullets">		
+        <li class="whatcolor">
+          <div class="top background-rose"></div>
+          <h5 class="what-colortitle">Rose</h5>
+          <div class="meet-colorbullets">
             <ul class="figure-dot-large">
               <li>Reserved</li>
               <li>Quiet</li>
@@ -291,56 +289,54 @@
             </ul>
           </div>
         </li>
-          <li class="whatcolor">
-            <div class="top background-tangerine"></div>
-          <h5 class="what-colortitle">Tangerine</h2>
-          <div class="meet-colorbullets">			
-              <ul class="figure-dot-large">
-                <li>Passionate</li>
-                <li>Direct</li>
-                <li>Relentless</li>
-              </ul>
+        <li class="whatcolor">
+          <div class="top background-tangerine"></div>
+          <h5 class="what-colortitle">Tangerine</h5>
+          <div class="meet-colorbullets">
+            <ul class="figure-dot-large">
+              <li>Passionate</li>
+              <li>Direct</li>
+              <li>Relentless</li>
+            </ul>
           </div>
         </li>
-          <li class="whatcolor">
-            <div class="top background-yellow"></div>
-          <h5 class="what-colortitle">Amber</h2>
-          <div class="meet-colorbullets">	
-              <ul class="figure-dot-large">
-                <li>Conventional</li>
-                <li>Simple</li>
-                <li>Die-Hard</li>
-              </ul>
+        <li class="whatcolor">
+          <div class="top background-yellow"></div>
+          <h5 class="what-colortitle">Amber</h5>
+          <div class="meet-colorbullets">
+            <ul class="figure-dot-large">
+              <li>Conventional</li>
+              <li>Simple</li>
+              <li>Die-Hard</li>
+            </ul>
           </div>
         </li>
-          <li class="whatcolor">
-            <div class="top background-emerald"></div>
-          <h5 class="what-colortitle">Emerald</h2>
-          <div class="meet-colorbullets">	
-              <ul class="figure-dot-large">
-                  <li>Organized</li>
-                <li>Thorough</li>
-                <li>Self-Disciplined</li>
-              </ul>
-        
+        <li class="whatcolor">
+          <div class="top background-emerald"></div>
+          <h5 class="what-colortitle">Emerald</h5>
+          <div class="meet-colorbullets">
+            <ul class="figure-dot-large">
+              <li>Organized</li>
+              <li>Thorough</li>
+              <li>Self-Disciplined</li>
+            </ul>
           </div>
         </li>
-          <li class="whatcolor">
-            <div class="top background-sapphire"></div>
-          <h5 class="what-colortitle">Sapphire</h2>
-          <div class="meet-colorbullets">	
-              <ul class="figure-dot-large">
-                <li>Sincere</li>
-                <li>Loyal</li>
-                <li>Fair-Minded</li>
-              </ul>
-        
+        <li class="whatcolor">
+          <div class="top background-sapphire"></div>
+          <h5 class="what-colortitle">Sapphire</h5>
+          <div class="meet-colorbullets">
+            <ul class="figure-dot-large">
+              <li>Sincere</li>
+              <li>Loyal</li>
+              <li>Fair-Minded</li>
+            </ul>
           </div>
         </li>
-          <li class="whatcolor">
-            <div class="top background-violet"></div>
-          <h5 class="what-colortitle">Violet</h2>
-          <div class="meet-colorbullets">			
+        <li class="whatcolor">
+          <div class="top background-violet"></div>
+          <h5 class="what-colortitle">Violet</h5>
+          <div class="meet-colorbullets">
             <ul class="figure-dot-large">
               <li>Sentimental</li>
               <li>Emotional</li>
@@ -348,10 +344,10 @@
             </ul>
           </div>
         </li>
-          <li class="whatcolor">
-            <div class="top background-ruby"></div>
-          <h5 class="what-colortitle">Ruby</h2>
-          <div class="meet-colorbullets">			
+        <li class="whatcolor">
+          <div class="top background-ruby"></div>
+          <h5 class="what-colortitle">Ruby</h5>
+          <div class="meet-colorbullets">
             <ul class="figure-dot-large">
               <li>Lively</li>
               <li>Sociable</li>
@@ -359,10 +355,10 @@
             </ul>
           </div>
         </li>
-          <li class="whatcolor">
-            <div class="top background-copper"></div>
-          <h5 class="what-colortitle">Copper</h2>
-          <div class="meet-colorbullets">						
+        <li class="whatcolor">
+          <div class="top background-copper"></div>
+          <h5 class="what-colortitle">Copper</h5>
+          <div class="meet-colorbullets">
             <ul class="figure-dot-large">
               <li>Patient</li>
               <li>Pleasant</li>
@@ -370,9 +366,9 @@
             </ul>
           </div>
         </li>
-          <li class="whatcolor">
-            <div class="top background-gold"></div>
-          <h5 class="what-colortitle">Gold</h2>		
+        <li class="whatcolor">
+          <div class="top background-gold"></div>
+          <h5 class="what-colortitle">Gold</h5>
           <div class="meet-colorbullets">
             <ul class="figure-dot-large">
               <li>Innovative</li>
@@ -384,19 +380,35 @@
       </ul>
     </section>
 
-    <footer>
-       <section class="email-update d-flex flex-column">
-      <h3>Join NEON's new identity ownership economy, created to empower us, the humans.</h3>
-      <form class="d-flex justify-content-center align-items-center">
-        <label for="inputEmail" class="form-label">Sign up for product updates</label>
-        <input type="email" class="form-control" id="inputEmail" placeholder="Your email address">
-        <button type="submit" class="btn btn-primary email-update rounded-pill">Submit</button>
-      </form>
-    </section>
+    <footer class="container-fluid">
+      <div class="row"></div>
+      <section class="email-update">
+        <h3 class="col-12">
+          Join NEON's new identity ownership economy, created to empower us, the
+          humans.
+        </h3>
+        <form
+          class="email-update d-flex flex-wrap justify-content-center align-items-center"
+        >
+          <label for="inputEmail" class="form-label"
+            >Sign up for product updates</label
+          >
+          <input
+            type="email"
+            class="form-control"
+            id="inputEmail"
+            placeholder="Your email address"
+          />
+          <button
+            type="submit"
+            class="btn btn-primary email-update rounded-pill"
+          >
+            Submit
+          </button>
+        </form>
+      </section>
 
-    <nav
-        class="navbar navbar-expand-md justify-content-between nav-bottom"
-      >
+      <nav class="navbar navbar-expand-md justify-content-between nav-bottom">
         <div class="container">
           <div class="d-flex align-items-center">
             <a class="navbar-brand title nav-bottom" href="#">NEON</a>
@@ -431,10 +443,12 @@
             </div>
 
             <div class="social-medias">
-              <a href=""><img src="/assets/facebook.svg" alt=""></a>
-              <a href=""><img src="/assets/Logo__x2014__FIXED_2_.svg" alt=""></a>
-              <a href=""><img src="/assets/Group 76.svg" alt=""></a>
-              <a href=""><img src="/assets/Group 77.svg" alt=""></a>
+              <a href=""><img src="/assets/facebook.svg" alt="" /></a>
+              <a href=""
+                ><img src="/assets/Logo__x2014__FIXED_2_.svg" alt=""
+              /></a>
+              <a href=""><img src="/assets/Group 76.svg" alt="" /></a>
+              <a href=""><img src="/assets/Group 77.svg" alt="" /></a>
             </div>
           </div>
         </div>
@@ -442,22 +456,17 @@
 
       <section class="rights-policy-terms d-flex justify-content-center">
         <ul class="legal-items">
+          <li class="legal-item">© 2022 NEON ID. All rights reserved.</li>
           <li class="legal-item">
-            © 2022 NEON ID. All rights reserved.
+            <a href="" class="legal-link">Privacy policy</a>
           </li>
-          <li class="legal-item"><a href="" class="legal-link">Privacy policy</a></li>
-          <li class="legal-item"><a href="" class="legal-link">Terms & conditions</a></li>
+          <li class="legal-item">
+            <a href="" class="legal-link">Terms & conditions</a>
+          </li>
         </ul>
       </section>
     </footer>
-   
 
-
-    <script
-      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
-      integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
-      crossorigin="anonymous"
-    ></script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
       integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"

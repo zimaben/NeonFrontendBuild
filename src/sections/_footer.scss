@@ -1,0 +1,87 @@
+//Overall footer
+footer.container-fluid {
+  padding: 0%;
+}
+
+//email update
+section.email-update {
+  background: linear-gradient(#1668a5, #29972e, #ffff00);
+  display: block;
+  text-align: center;
+  padding: 6% 20%;
+}
+
+.email-update h3 {
+  font: bold 36px/46px Inter, 'PT Sans', sans-serif;
+  color: #ffffff;
+}
+
+.email-update label {
+  font: 24px/36px Inter, 'PT Sans', sans-serif;
+  color: #ffffff;
+}
+
+.email-update input {
+  font: 18px/24px Inter, 'PT Sans', sans-serif;
+  width: 286px;
+  height: 56px;
+  margin: 0% 2%;
+}
+
+form.email-update {
+  max-width: 100%;
+}
+
+button.email-update {
+  font: bold 24px/24px Inter, 'PT Sans', sans-serif;
+  background-color: #1668a5;
+  // width: 167px;
+  // height: 73px;
+  border: none;
+  color: #ffffff;
+  padding: 21px 26px;
+}
+
+//nav-bottom
+nav.nav-bottom {
+  background: #212121;
+}
+
+a.nav-bottom {
+  border: 1px solid #ffffff;
+  padding: 10px 30px;
+  font-size: 30px;
+  font-weight: 100;
+  letter-spacing: 15px;
+}
+
+.nav-bottom .nav-link,
+.nav-bottom .navbar-brand,
+.nav-bottom .navbar-text {
+  color: #ffffff;
+}
+
+// rights privacy terms
+ul.legal-items {
+  color: #b8b8b8;
+  list-style: none;
+  padding: 0;
+  margin: 15px auto 40px;
+}
+
+li.legal-item {
+  display: inline;
+}
+
+li.legal-item:after {
+  content: ' \2022';
+}
+
+li.legal-item:last-child:after {
+  content: none;
+}
+
+a.legal-link {
+  color: #b8b8b8;
+  text-decoration: none;
+}

@@ -1,0 +1,26 @@
+section.join-quiz {
+  background: linear-gradient(#1668a5, #7d2a8a, #f881ae);
+  display: block;
+  text-align: center;
+  padding: 6% 20%;
+}
+
+.join-quiz h3 {
+  font: bold 36px/46px Inter, 'PT Sans', sans-serif;
+  color: #ffffff;
+}
+
+.join-quiz p {
+  font: 24px/48px Inter, 'PT Sans', sans-serif;
+  color: #ffffff;
+}
+
+button.join-quiz {
+  font: bold 24px/24px Inter, 'PT Sans', sans-serif;
+  background-color: #ffffff;
+  border: none;
+  // height: 73px;
+  // width: 461px;
+  color: #7d2a8a;
+  padding: 21px 26px;
+}

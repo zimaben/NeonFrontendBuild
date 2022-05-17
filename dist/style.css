@@ -2,8 +2,13 @@
   !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss ***!
   \*********************************************************************************************************/
 @charset "UTF-8";
-a.title {
-  border: 1px solid black;
+.main nav {
+  padding: 20px 3% 0;
+}
+
+nav a.title {
+  border: 1px solid #ffffff;
+  color: #ffffff;
   padding: 10px 30px;
   font-size: 30px;
   font-weight: 100;
@@ -16,16 +21,16 @@ a.title {
 
 span.navbar-text {
   font: 18px/24px Inter, "PT Sans", sans-serif;
-  color: black;
+  color: #ffffff;
 }
 
 a.nav-link {
   font: 18px/24px Inter, "PT Sans", sans-serif;
-  color: black;
+  color: #ffffff;
 }
 
 .nav-link.on {
-  color: black;
+  color: #ffffff;
   font-weight: bold;
 }
 
@@ -37,12 +42,17 @@ button.sign-in {
   font: 18px/24px Inter, "PT Sans", sans-serif;
   height: 56px;
   width: 123px;
-  border: 1px solid black;
-  color: black;
+  border: 1px solid #ffffff;
+  color: #ffffff;
 }
 
-.main {
-  padding: 3% 5%;
+section.main-container {
+  padding: 1% 0 3%;
+}
+@media (max-width: 1200px) {
+  section.main-container {
+    padding: 0 5% 5%;
+  }
 }
 
 section.main {

@@ -1,5 +1,9 @@
-.main {
-  padding: 3% 5%;
+section.main-container {
+  padding: 1% 0 3%;
+
+  @media (max-width: 1200px) {
+    padding: 0 5% 5%;
+  }
 }
 
 section.main {

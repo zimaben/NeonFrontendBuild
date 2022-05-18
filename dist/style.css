@@ -518,7 +518,7 @@ section.form-section {
 
 form.input-form {
   background-color: #f0f7ff;
-  padding: 8% 8%;
+  padding: 6% 8%;
   border-radius: 22px;
 }
 
@@ -536,6 +536,7 @@ form.input-form {
 .form-section p {
   font: bold 24px/36px Inter, "PT Sans", sans-serif;
   text-align: center;
+  margin: 2% 0 3%;
 }
 @media (max-width: 992px) {
   .form-section p {

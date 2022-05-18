@@ -440,7 +440,7 @@ button.email-update {
   background-color: #1668a5;
   border: none;
   color: #ffffff;
-  padding: 21px 26px;
+  padding: 20px 40px;
 }
 @media (max-width: 768px) {
   button.email-update {
@@ -492,11 +492,21 @@ a.legal-link {
   text-decoration: none;
 }
 
+.get-started h1 {
+  font: bold 72px/104px Inter, "PT Sans", sans-serif;
+  color: #ffffff;
+  margin-bottom: 14px;
+}
+@media (max-width: 992px) {
+  .get-started h1 {
+    font: bold 48px/64px Inter, "PT Sans", sans-serif;
+  }
+}
+
 section.form-section {
-  display: block;
   padding: 5% 20%;
 }
-@media (max-width: 768px) {
+@media (max-width: 992px) {
   section.form-section {
     padding: 5% 5%;
   }
@@ -504,7 +514,6 @@ section.form-section {
 
 form.input-form {
   background-color: #f0f7ff;
-  display: block;
   padding: 10% 10%;
   border-radius: 22px;
 }
@@ -514,7 +523,7 @@ form.input-form {
   color: #7d2a8a;
   text-align: center;
 }
-@media (max-width: 991px) {
+@media (max-width: 992px) {
   .form-section h3 {
     font: bold 36px/46px Inter, "PT Sans", sans-serif;
   }
@@ -524,8 +533,43 @@ form.input-form {
   font: bold 24px/36px Inter, "PT Sans", sans-serif;
   text-align: center;
 }
-@media (max-width: 991px) {
+@media (max-width: 992px) {
   .form-section p {
     font: bold 18px/24px Inter, "PT Sans", sans-serif;
+  }
+}
+
+.input-form > * {
+  font: 24px/28px Inter, "PT Sans", sans-serif;
+  margin: auto;
+}
+@media (max-width: 992px) {
+  .input-form > * {
+    font: 18px/20px Inter, "PT Sans", sans-serif;
+  }
+}
+
+.form-group .form-control {
+  margin: 1% 0 5%;
+  font: 24px/28px Inter, "PT Sans", sans-serif;
+  padding: 2% 2%;
+}
+@media (max-width: 992px) {
+  .form-group .form-control {
+    font: 18px/20px Inter, "PT Sans", sans-serif;
+  }
+}
+
+button.get-started {
+  font: bold 24px/24px Inter, "PT Sans", sans-serif;
+  background-color: #7d2a8a;
+  border: none;
+  color: #ffffff;
+  padding: 20px 40px;
+  width: auto;
+}
+@media (max-width: 768px) {
+  button.get-started {
+    font: bold 18px/18px Inter, "PT Sans", sans-serif;
   }
 }

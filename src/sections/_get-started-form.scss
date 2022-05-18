@@ -1,0 +1,34 @@
+section.form-section {
+  display: block;
+  padding: 5% 20%;
+
+  @media (max-width: 768px) {
+    padding: 5% 5%;
+  }
+}
+
+form.input-form {
+  background-color: #f0f7ff;
+  display: block;
+  padding: 10% 10%;
+  border-radius: 22px;
+}
+
+.form-section h3 {
+  font: bold 48px/64px Inter, 'PT Sans', sans-serif;
+  color: #7d2a8a;
+  text-align: center;
+
+  @media (max-width: 991px) {
+    font: bold 36px/46px Inter, 'PT Sans', sans-serif;
+  }
+}
+
+.form-section p {
+  font: bold 24px/36px Inter, 'PT Sans', sans-serif;
+  text-align: center;
+
+  @media (max-width: 991px) {
+    font: bold 18px/24px Inter, 'PT Sans', sans-serif;
+  }
+}

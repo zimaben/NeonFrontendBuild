@@ -43,7 +43,7 @@ button.sign-in {
 }
 
 section.main-container {
-  padding: 1% 0 3%;
+  padding: 1% 1% 3%;
 }
 @media (max-width: 1200px) {
   section.main-container {
@@ -187,7 +187,7 @@ img {
 }
 
 .step h2 {
-  font: bold 48px/52px Inter, "PT Sans", sans-serif;
+  font: bold 48px/64px Inter, "PT Sans", sans-serif;
   color: #7d2a8a;
 }
 @media (max-width: 991px) {
@@ -490,4 +490,42 @@ li.legal-item:last-child:after {
 a.legal-link {
   color: #b8b8b8;
   text-decoration: none;
+}
+
+section.form-section {
+  display: block;
+  padding: 5% 20%;
+}
+@media (max-width: 768px) {
+  section.form-section {
+    padding: 5% 5%;
+  }
+}
+
+form.input-form {
+  background-color: #f0f7ff;
+  display: block;
+  padding: 10% 10%;
+  border-radius: 22px;
+}
+
+.form-section h3 {
+  font: bold 48px/64px Inter, "PT Sans", sans-serif;
+  color: #7d2a8a;
+  text-align: center;
+}
+@media (max-width: 991px) {
+  .form-section h3 {
+    font: bold 36px/46px Inter, "PT Sans", sans-serif;
+  }
+}
+
+.form-section p {
+  font: bold 24px/36px Inter, "PT Sans", sans-serif;
+  text-align: center;
+}
+@media (max-width: 991px) {
+  .form-section p {
+    font: bold 18px/24px Inter, "PT Sans", sans-serif;
+  }
 }
